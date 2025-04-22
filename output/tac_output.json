@@ -1,0 +1,84 @@
+[
+  {
+    "type": "assign",
+    "lhs": "d",
+    "rhs": "10"
+  },
+  {
+    "type": "assign",
+    "lhs": "e",
+    "rhs": "20"
+  },
+  {
+    "type": "assign",
+    "lhs": "a",
+    "rhs": "5"
+  },
+  {
+    "type": "assign",
+    "lhs": "b",
+    "rhs": "7"
+  },
+  {
+    "type": "binop",
+    "lhs": "t0",
+    "op": "+",
+    "arg1": "a",
+    "arg2": "b"
+  },
+  {
+    "type": "assign",
+    "lhs": "c",
+    "rhs": "t0"
+  },
+  {
+    "type": "binop",
+    "lhs": "t1",
+    "op": "*",
+    "arg1": "c",
+    "arg2": "d"
+  },
+  {
+    "type": "assign",
+    "lhs": "f",
+    "rhs": "t1"
+  },
+  {
+    "type": "binop",
+    "lhs": "t2",
+    "op": "/",
+    "arg1": "f",
+    "arg2": "e"
+  },
+  {
+    "type": "assign",
+    "lhs": "g",
+    "rhs": "t2"
+  },
+  {
+    "type": "binop",
+    "lhs": "t3",
+    "op": "+",
+    "arg1": "a",
+    "arg2": "b"
+  },
+  {
+    "type": "binop",
+    "lhs": "t4",
+    "op": "-",
+    "arg1": "c",
+    "arg2": "d"
+  },
+  {
+    "type": "binop",
+    "lhs": "t5",
+    "op": "*",
+    "arg1": "t3",
+    "arg2": "t4"
+  },
+  {
+    "type": "assign",
+    "lhs": "h",
+    "rhs": "t5"
+  }
+]
