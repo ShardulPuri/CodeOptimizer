@@ -1,21 +1,13 @@
-// sample.c - Simple C code for testing the TAC generator
-// Avoiding preprocessor directives for easier parsing
-
 int main() {
-    int a;
-    int b;
-    int c;
-    int d = 10;
-    int e = 20;
+    int a = 5;
+    int b = 10;
+    int c = a + b;
+    int d = c * 2 + (a - b);
+    int e = d / (a + 1);
     
-    a = 5;
-    b = 7;
-    c = a + b;
-    
-    int f = c * d;
-    int g = f / e;
-    
-    int h = (a + b) * (c - d);
-    
+    if (e > 5) {
+        e = e - 1;
+    }
+
     return 0;
 }
